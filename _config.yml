@@ -13,7 +13,7 @@ paginate: 7
 paginate_path: "page:num"
 baseurl: /
 domain_name: 'http://anotetomyself.com'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-41607435-1'
 disqus: true
 disqus_shortname: 'anotetomyselfcom'
 
