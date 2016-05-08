@@ -1,15 +1,18 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: about/
+profile: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This is Srinivas Yedhuri. I'm a front end engineer at Citrix R&D working on the Netscaler and associated products UI Team.
+Formely worked at Yahoo! I have been working on the web since 2005.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+This blog is a place where I write about web technologies, Productivity tools, Workflows etc.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Opinions are of my own and have nothing to do with the companies I worked for or working for.
+
+#### Site's Stack:
+- Tools:    Jekyl
+- Theme: Kactus theme
+- Hosted On: Github Pages
+{% include footer.html %}

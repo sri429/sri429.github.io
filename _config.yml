@@ -1,21 +1,45 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+name: "Srinivas Yedhuri's Blog"
+description: "Blogging about Web Technologies"
+meta_description: "A blog by Srinivas Yedhuri"
 
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+aboutPage: true
 
-# Build settings
-markdown: kramdown
+markdown: redcarpet
+#highlighter: pygments
+highlighter: rouge 
+
+gems: [jekyll-paginate]
+paginate: 7
+paginate_path: "page:num"
+baseurl: /
+domain_name: 'http://anotetomyself.com'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: true
+disqus_shortname: 'anotetomyselfcom'
+
+# Details for the RSS feed generator
+url:            'http://anotetomyself.com'
+author:         'Srinivas Yedhuri'
+authorTwitter:  'sri429'
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
