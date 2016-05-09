@@ -1,6 +1,6 @@
 ---
 title:  "Animated Loading Gifs"
-date:   2016-05-09  00:10:32 +0530
+date:   2016-05-09  10:35:32 +0530
 description: Single div animated loading gifs
 ---
 
