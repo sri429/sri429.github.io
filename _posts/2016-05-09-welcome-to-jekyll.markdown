@@ -1,6 +1,6 @@
 ---
 title:  "Hello World"
-date:   2016-05-09
+date:   2016-05-08  00:25:08 +0530
 description: My First Blog post on Github Pages
 ---
 
